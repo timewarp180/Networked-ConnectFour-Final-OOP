@@ -1,7 +1,17 @@
 # Networked-ConnectFour-Final-OOP
 
+If downloaded from github:
+I am using eclipse IDE and in order to run the program
+-right click the package, go to properties 
+-go to java build path
+-select libraries , click classpath, then add class folder
+-click on res, then okay, and apply and close
+
+this allows to add the image from res folder that will be used in the titlescreen.java
+
 
 -----------------------GUIDE-------------------
+
 
 LOCAL:
 
