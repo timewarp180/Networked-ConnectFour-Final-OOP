@@ -2,7 +2,7 @@
 
 If downloaded from github:
 
-I am using eclipse IDE and in order to run the program
+I am using eclipse IDE and in order to run the program without error in the titlescreen.java
 
 -right click the package, go to properties 
 
@@ -12,7 +12,7 @@ I am using eclipse IDE and in order to run the program
 
 -click on res, then okay, and apply and close
 
-this allows to add the image from res folder that will be used in the titlescreen.java
+this allows to add the image from res folder to be added in the titlescreen.java
 
 
 -----------------------GUIDE-------------------
