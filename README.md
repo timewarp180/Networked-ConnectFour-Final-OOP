@@ -29,10 +29,9 @@ MULTIPLAYER:
 
 
 ---player 2-----
-Turn on the hamachi and go to NETWORK TAB, SELECT JOIN AN EXISITING NETWORK, INPUT THE NETWORK ID AND THE PASSWORD THAT THE HOST CREATED.
 
-
-1. Run connectfourclient.java, type in name, type in the ipv4 address of the host/player1 (From the hamachi server), 
+1. Turn on the hamachi and go to NETWORK TAB, SELECT JOIN AN EXISITING NETWORK, INPUT THE NETWORK ID AND THE PASSWORD THAT THE HOST CREATED.
+2. Run connectfourclient.java, type in name, type in the ipv4 address of the host/player1 (From the hamachi server), 
 and then input the port of the server.
 
 
