@@ -13,6 +13,7 @@ public class connectfourclient extends JApplet implements Runnable, connectfourc
   private boolean myTurn = false;
 
   private char myToken = ' ';
+  
   private Scanner scanner = new Scanner(System.in);
 
   private char otherToken = ' ';
@@ -148,7 +149,7 @@ b.addActionListener(new ActionListener() {
  public void restart () {
 	 JFrame f=new JFrame("GAME OVER"); 
      //submit button
-	 JButton bb=new JButton("Restart");    
+	 JButton bb=new JButton("Play again");    
 	 bb.setBounds(75, 100, 130, 30);  
 //	 bb.setBounds(x, y, width, height);
 	 
@@ -226,7 +227,7 @@ b.addActionListener(new ActionListener() {
       if (player == PLAYER1) {
         myToken = 'r';
         otherToken = 'y';
-        jlblTitle.setText("Player 1:  " + name +" color red SCORE: " +redScore);
+        jlblTitle.setText("Player 1:  " + name +" color red || Your SCORE: " +redScore + " Opponent Score " +yellowScore);
         jlblStatus.setText("Waiting for player 2 to join");
 
         // Receive startup notification from the server
@@ -241,7 +242,7 @@ b.addActionListener(new ActionListener() {
       else if (player == PLAYER2) {
         myToken = 'y';
         otherToken = 'r';
-        jlblTitle.setText("Player 2:  " + name + " color yellow SCORE: " +yellowScore);
+        jlblTitle.setText("Player 2:  " + name + " color yellow || Your SCORE: " +yellowScore+ " Opponent Score: " +redScore);
         jlblStatus.setText("Waiting for player 1 to move");
       }
       // Continue to play
